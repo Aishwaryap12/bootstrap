@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="container">
+        <h2><b>Person Form</b></h2>
+        <hr>
+        <div class="alert alert-danger alert-dismissible ">
+            <strong>Error Message</strong>
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        <div class="row">
+        <div class="form-group col-2">
+            <lable><b>Title</b></lable>
+            <input type="text" class="form-control"placeholder="Mr.">
+            </div>
+            <div class="form-group col-5">
+            <lable> <b>First Name</b></lable>
+            <input type="text" class="form-control"placeholder="FirstName">
+            </div>
+            <div class="form-group col-5">
+            <lable><b>Last Name</b></lable>
+            <input type="text" class="form-control"placeholder="LastName">
+            </div>
+        <br>
+        <div class="row">
+        <div class="form-group col 6">
+            <label><b>Gender</b></label>
+            <!-- <input type="text"class="form-control"> -->
+            <select class="form-control"id="gender1">
+                <option>   </option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            
+            </div>
+            <div class="form-group col-6">
+                <label><b>Date of Birth</b></label>
+                <input type="date"class="form-control">
+            </div>
+            <br>
+            <div class="row">
+                <div class="form-group col-12">
+                <label><b>Address</b></label>
+                <input type="text" class="form-control" placeholder="street"><br>
+                </div>
+                <div class="row"> 
+                <div class="form-group col-6"><input type="text" class="form-control" placeholder="City"></div>
+                <div class="form-group col-6"><input type="text" class="form-control" placeholder="State"></div><br><br>
+                </div>
+                <div class="row"> 
+                    <div class="form-group col-6"><input type="text" class="form-control" placeholder="Post code"></div>
+                    <div class="form-group col-6" placeholder="Country">
+                        <!-- <input type="text" class="form-control" placeholder="Country"></div><br><br> -->
+                        <select class="form-control">
+                            <option selected disabled>Country</option>
+                            <option>India</option>
+                            <option>US</option>
+                            <option>Germany</option>
+                            <option>France</option>
+                        </select><br>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="from-group-col-3">
+                            <input type="submit"class="btn btn-lg btn-block btn-primary" value="Register" style="float: right; size: 50px; background-color: rgb(96, 96, 236);">
+                        </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+
+            
+
+
+            
+
+
+        </div>
+
+        </div>
+
+       
+    </div>
+</body>
+</html>
